@@ -24,7 +24,7 @@ function Counter(props) {
                 className="btn btn-outline-secondary"
                 style={{margin: "5px"}}
                 onClick={ () => props.minus(props.index) }>-</button>
-            {props.count}
+            <span className="h4">{props.count}</span>
             <button
                 className="btn btn-outline-secondary"
                 style={{margin: "5px"}}
